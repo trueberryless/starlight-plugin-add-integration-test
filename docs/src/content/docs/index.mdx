@@ -1,0 +1,30 @@
+---
+title: starlight-plugin-add-integration-test
+description: Test if the addIntegration hook works
+head:
+  - tag: title
+    content: starlight-plugin-add-integration-test
+template: splash
+editUrl: false
+hero:
+  tagline: Test if the addIntegration hook works
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /getting-started/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Install the plugin" icon="puzzle">
+    Check the [getting started guide](/getting-started/) for installation instructions.
+  </Card>
+  <Card title="Configure the plugin" icon="setting">
+    Edit your config in the `astro.config.mjs` file.
+  </Card>
+</CardGrid>
